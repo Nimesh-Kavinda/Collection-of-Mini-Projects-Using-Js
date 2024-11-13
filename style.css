@@ -16,6 +16,37 @@
 
 }
 
+.heading{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.heading .title p span{
+    color: #003161;
+    font-weight: 700;
+    font-size: 35px;
+    user-select: none;
+}
+
+.heading .title p{
+    color: #000B58;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.heading .subtitle p{
+    color: #006A67;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.heading .subtitle p span{
+    color: #003161;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: italic;
+}
+
 .nav .container-fluid .navbar-brand{
   color: #006A67;
     font-weight: 400;
@@ -39,7 +70,7 @@
 }
 
 .project-links{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .project-links .container{
@@ -49,7 +80,6 @@
 }
 
 .project-links .card{
-    height: 250px;
     text-align: center;
     align-items: center;
 }
