@@ -16,6 +16,28 @@
 
 }
 
+.nav .container-fluid .navbar-brand{
+  color: #006A67;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav .container-fluid a span{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000B58;
+}
+
+.nav .offcanvas-header h5{
+    color: #000B58;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav .offcanvas-body h6{
+    color: #006A67;
+}
+
 .heading{
     margin-top: 100px;
     text-align: center;
@@ -47,28 +69,6 @@
     font-style: italic;
 }
 
-.nav .container-fluid .navbar-brand{
-  color: #006A67;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.nav .container-fluid a span{
-    font-weight: 600;
-    font-size: 24px;
-    color: #000B58;
-}
-
-.nav .offcanvas-header h5{
-    color: #000B58;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.nav .offcanvas-body h6{
-    color: #006A67;
-}
-
 .project-links{
     margin-top: 30px;
 }
@@ -82,6 +82,7 @@
 .project-links .card{
     text-align: center;
     align-items: center;
+    box-shadow: var(--box-shadow);
 }
 
 .project-links .container .row .card .card-title{
