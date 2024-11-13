@@ -37,3 +37,29 @@
 .nav .offcanvas-body h6{
     color: #006A67;
 }
+
+.project-links{
+    margin-top: 100px;
+}
+
+.project-links .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-links .card{
+    height: 250px;
+    text-align: center;
+    align-items: center;
+}
+
+.project-links .container .row .card .card-title{
+    color: #003161;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project-links .container .row .card .btn{
+    background-color: #006A67;
+}
