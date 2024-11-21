@@ -67,8 +67,8 @@
 
 .heading img{
     border-radius: 50%;
-    border-bottom: 3px solid #000B58;
-    border-top: 4px solid #006A67;
+    border-bottom: 2px solid #000B58;
+    border-top: 3px solid #006A67;
     border-left: 1px solid #3498db;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .faq.active::before, .faq.active::after {
-    content: '\f075';
+    content: '\f005';
     font-family: 'Font Awesome 5 Free';
     color: #2ecc71;
     font-size: 7rem;
