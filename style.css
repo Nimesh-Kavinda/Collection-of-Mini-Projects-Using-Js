@@ -34,6 +34,11 @@
     font-weight: 500;
 }
 
+.nav-link.active {
+    border-bottom: 1.5px solid #003161;
+    width: 50%;
+}
+
 .nav .offcanvas-body h6{
     color: #006A67;
 }
