@@ -45,6 +45,8 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    overflow: hidden;
+    width: 100%;
     
 }
 
@@ -61,6 +63,13 @@
     color: #003161;
     display: flex;
     align-items: center;
+}
+
+.heading img{
+    border-radius: 50%;
+    border-bottom: 3px solid #000B58;
+    border-top: 4px solid #006A67;
+    border-left: 1px solid #3498db;
 }
 
 .heading .text-about{
