@@ -1,1 +1,1 @@
-const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc';
+const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=832e25b632752d5f544ddc8bfb5ea6a5';
