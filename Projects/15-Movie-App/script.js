@@ -17,7 +17,7 @@ async function getMovies(url) {
 }
 
 function showMovies(movies) {
-    main.innerHtml =  '';
+    main.innerHTML =  '';
 
     movies.forEach((movie) => {
         const {title, poster_path , vote_average , overview} = movie;
@@ -58,12 +58,14 @@ form.addEventListener("submit", (e) => {
     const searchTerm = search.value;
 
     if(searchTerm && searchTerm !== '') {
+
         getMovies(SEARCH_API + searchTerm);
 
-        search.value = '';
+        search.value = ' ';
     } else {
         window.location.reload();
     }
 });
+
 
 
