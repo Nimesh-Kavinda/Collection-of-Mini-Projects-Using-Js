@@ -15,3 +15,12 @@ gsap.to('body', {
   backgroundColor: '#C9E6F0',
   delay: 10,
 });
+
+gsap.from('.title', {
+  duartion: 5,
+  delay: 12,
+  y: -100,
+  opacity: 0,
+  stagger: 0.5,
+  ease: 'bounce',
+});
