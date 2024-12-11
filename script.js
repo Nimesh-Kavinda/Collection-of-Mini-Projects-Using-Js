@@ -10,11 +10,11 @@ gsap.timeline().from(cards, {
   ease: 'power1.inOut',
 });
 
-gsap.to('body', {
-  duartion: 2,
-  backgroundColor: '#C9E6F0',
-  delay: 10,
-});
+// gsap.to('body', {
+//   duartion: 2,
+//   backgroundColor: '#C9E6F0',
+//   delay: 10,
+// });
 
 gsap.from('.title', {
   duartion: 5,
