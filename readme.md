@@ -11,3 +11,4 @@ The homepage provides an organized list of my JavaScript mini projects, making i
 Navigate through the mini projects from the main page to see how different JavaScript features and techniques are implemented.
 
 Enjoy exploring the collection!
+        
